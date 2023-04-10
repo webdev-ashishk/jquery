@@ -59,4 +59,56 @@ $(document).ready(function () {
   $("#stoggle").click(() => {
     $("#container").slideToggle(1000);
   });
+
+  // <-------------Animate--------------------->
+  /* Note
+  +=value This will increase relatively
+  */
+  $("#animate").click(() => {
+    //   $("#container").animate({ width: "+=300px", height: "300px" }, 300, () => {
+    //     alert("width changed !");
+    //   });
+    // });
+    const reverse = () => {
+      $("#container").animate({
+        width: "100px",
+        height: "100px",
+        left: "250px",
+        // opacity: "0.5",
+        borderRadius: "10px",
+        fontSize: "1.4rem",
+        color: "red",
+      });
+    };
+    $("#container").animate(
+      {
+        width: "200px",
+        height: "200px",
+        left: "0",
+        // opacity: "0.5",
+        borderRadius: "10px",
+        fontSize: "2rem",
+        color: "red",
+      },
+      500,
+      reverse
+    );
+  });
+  //////////////////////////////////////
+
+  $("#btn9").click(() => {
+    /* NOTE
+    Val() function can do two things 
+    1.get the value's only in input field
+    2.set the value's only in input field
+    */
+    const result = $("#ifield").val();
+    // console.log(result);
+    // $("#ifield").val("this will be done using well function");
+  });
+
+  // <------------changing image src--------------------->
+  $("#ibtn").click(() => {
+    $("#imgOne").attr("src", "me2.jpeg");
+  });
 });
