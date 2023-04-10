@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  color: blue;
+  font-weight: 800;
+  font-size: 5rem;
+}
+#para {
+  color: green;
+  font-size: 3rem;
+  margin: 80px;
+  border: 2px dotted green;
+}
+#pbtn {
+  padding: 20px;
+  font-size: 3rem;
+  margin-left: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+}
