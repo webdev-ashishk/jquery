@@ -33,4 +33,30 @@ $(document).ready(function () {
     // fadeTo(speed, opacity, callbackFunction(optional));
     $("#container").fadeTo(500, 0.5);
   });
+
+  //--------------- slide function------------------------------>
+  /* slideup,slideDown,slideToggle 
+   Note
+   1. both function are taking three parameters (speed,callbackfunction)
+   2.Both parameter's are optional
+  */
+  // slide up
+  $("#sup").click(() => {
+    // $("#container").slideUp();
+    $("#container").slideUp(3000, () => {
+      alert("slideUp");
+    });
+  });
+  // slideDown
+  $("#sdown").click(() => {
+    // $("#container").slideDown();
+    $("#container").slideDown(3000);
+    // $("#container").slideDown(3000, () => {
+    //   alert("slideDown");
+    // });
+  });
+  //slide toggle
+  $("#stoggle").click(() => {
+    $("#container").slideToggle(1000);
+  });
 });

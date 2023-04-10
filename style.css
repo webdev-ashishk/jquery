@@ -15,3 +15,8 @@ h1 {
 #sdiv {
   margin: 10px;
 }
+#stoggle,
+#ftoggle {
+  background-color: green;
+  color: white;
+}
