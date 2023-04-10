@@ -24,4 +24,13 @@ $(document).ready(function () {
     // $("#container").show();
     $("#container").fadeIn();
   });
+  $("#ftoggle").click(() => {
+    // $("#container").show();
+    $("#container").fadeToggle();
+  });
+  $("#fadeTo").click(() => {
+    // $("#container").show();
+    // fadeTo(speed, opacity, callbackFunction(optional));
+    $("#container").fadeTo(500, 0.5);
+  });
 });
