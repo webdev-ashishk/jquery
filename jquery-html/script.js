@@ -48,4 +48,12 @@ $(document).ready(function () {
     $("p").toggleClass("blue");
     $("div").toggleClass("important divFontStyle");
   });
+
+  // -----------remove element------------------->
+  $("#relementbtn").click(() => {
+    $("span").remove();
+  });
+  $("#relementbtn2").click(() => {
+    $("p").remove(".rdiv");
+  });
 });

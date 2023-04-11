@@ -30,7 +30,9 @@ h1 {
 }
 #aclassbtn,
 #rclassbtn,
-#tclassbtn {
+#tclassbtn,
+#relementbtn,
+#relementbtn2 {
   padding: 20px;
   border-radius: 10px;
   margin-left: 40px;
@@ -51,4 +53,15 @@ h1 {
   margin-top: 20px;
   margin-left: 10px;
   margin-bottom: 5px;
+}
+/* remove element  */
+.rdiv {
+  border: 2px slide yellow;
+  color: black;
+  background-color: yellow;
+  font-size: 2rem;
+}
+.lpara {
+  color: blue;
+  font-size: 2rem;
 }
