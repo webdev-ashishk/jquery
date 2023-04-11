@@ -26,7 +26,26 @@ $(document).ready(function () {
   });
 
   // <----------css classes------------------>
+
+  //1] add css class method
   $("#aclassbtn").click(() => {
+    // added single class here
     $("p").addClass("blue");
+    // added multiple css classes in one class
+    $("div").addClass("important divFontStyle");
+  });
+
+  //2] remove css class method
+  $("#rclassbtn").click(() => {
+    $("p").removeClass("blue");
+    $("div").removeClass("important divFontStyle");
+  });
+  //3] toggle class method
+  /* Note
+  toggleclass can be used in navigation bar
+  */
+  $("#tclassbtn").click(() => {
+    $("p").toggleClass("blue");
+    $("div").toggleClass("important divFontStyle");
   });
 });

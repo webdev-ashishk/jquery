@@ -41,3 +41,14 @@ h1 {
   color: blue;
   font-size: 5rem;
 }
+.divFontStyle {
+  border: 2px slide red;
+  font-style: italic;
+}
+.important {
+  background-color: antiquewhite;
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
