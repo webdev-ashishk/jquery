@@ -22,3 +22,22 @@ h1 {
   border-radius: 10px;
   cursor: pointer;
 }
+#para2 {
+  color: green;
+  font-size: 3rem;
+  margin: 80px;
+  border: 2px dotted green;
+}
+#aclassbtn,
+#rclassbtn,
+#tclassbtn {
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 40px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.blue {
+  color: blue;
+  font-size: 5rem;
+}
